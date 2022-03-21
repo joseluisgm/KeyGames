@@ -142,7 +142,7 @@ header nav a .read span, #searchform .searchbutton:hover {
 	float: left;
 	display: block;
 	margin-left: 4%;
-	color: #fff;
+	/*color: #fff;*/
 }
 #content article {
 	width: 29%;
@@ -1026,6 +1026,7 @@ h3.widget-title{
 		width: 100%;
 	}
 }
+
 
 @media only screen and (max-width: 1140px) {
 	body { max-width: 1140px; }

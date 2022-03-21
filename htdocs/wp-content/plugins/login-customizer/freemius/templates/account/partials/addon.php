@@ -1,4 +1,9 @@
 <?php
+
+    if ( ! defined( 'ABSPATH' ) ) {
+        exit;
+    }
+
     /**
      * @var array    $VARS
      * @var Freemius $fs
@@ -443,4 +448,4 @@
         </td>
         <!--/ Optional Delete Action -->
     <?php endif ?>
-</tr>
+</tr>

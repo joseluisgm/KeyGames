@@ -1,4 +1,8 @@
 <?php
+        if ( ! defined( 'ABSPATH' ) ) {
+            exit;
+        }
+
 	if ( ! class_exists( 'Freemius_Exception' ) ) {
 		/**
 		 * Thrown when an API call returns an exception.
@@ -71,4 +75,4 @@
 				return $str . $this->getMessage();
 			}
 		}
-	}
+	}
